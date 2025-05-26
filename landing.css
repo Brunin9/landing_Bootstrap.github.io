@@ -32,6 +32,8 @@ nav {
     margin-top: 1em;
 }
 
+
+
 nav a {
     color: rgb(255, 255, 255);
     margin: 0 1em;
@@ -200,4 +202,15 @@ footer {
         flex-direction: column;
         gap: 1em;
     }
+}
+
+.navbar.navbar-light.bg-light {
+    background-color: #123458 !important;
+}
+.navbar.navbar-light.bg-light .navbar-brand,
+.navbar.navbar-light.bg-light .nav-link {
+    color: rgb(240, 236, 236) !important;
+}
+.navbar.navbar-light.bg-light .nav-link:hover {
+    color: #d4c9be !important;
 }
